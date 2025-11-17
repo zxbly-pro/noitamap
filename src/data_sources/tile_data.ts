@@ -16,7 +16,7 @@ export const isValidMapName = (name: string | undefined): name is MapName => {
 };
 export const assertMapName = (name: string): MapName => {
   if (!isValidMapName(name)) {
-    throw new Error(`Invalid MapName: '${name}'`);
+    throw new Error(`无效的地图名称: '${name}'`);
   }
   return name;
 };
