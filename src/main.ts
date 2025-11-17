@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // TODO: probably most of this should be part of the "App" class, or the "App" class should be removed.
   // i'm not sure i'm happy with the abstraction
 
-  const navbarBrandElement = assertElementById('navbar-brand', HTMLElement);
+  // const navbarBrandElement = assertElementById('navbar-brand', HTMLElement);
   const osdRootElement = assertElementById('osContainer', HTMLElement);
   const searchForm = assertElementById('search-form', HTMLFormElement);
   const overlayButtonsElement = assertElementById('overlay-selector', HTMLDivElement);
@@ -81,10 +81,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const initialMapName = app.getMap();
 
-  navbarBrandElement.addEventListener('click', ev => {
-    ev.preventDefault();
-    app.home();
-  });
+  // navbarBrandElement.addEventListener('click', ev => {
+  //   ev.preventDefault();
+  //   app.home();
+  // });
 
   // create unified search
   const unifiedSearch = UnifiedSearch.create({
@@ -191,28 +191,28 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   // share button with toast notification
-  const shareEl = assertElementById('shareButton', HTMLElement);
-  shareEl.addEventListener('click', ev => {
-    ev.preventDefault();
-    window.navigator.clipboard
-      .writeText(window.location.href)
-      .then(() => {
-        // Update toast text with translation
-        const toastElement = assertElementById('shareToast', HTMLElement);
-        const toastBody = toastElement.querySelector('.toast-body');
-        if (toastBody) {
-          toastBody.innerHTML = `<i class="bi bi-check-circle me-2"></i>${i18next.t('share.copied')}`;
-        }
-        const toast = new bootstrap.Toast(toastElement, {
-          autohide: true,
-          delay: 2000,
-        });
-        toast.show();
-      })
-      .catch(err => {
-        console.error('Failed to copy to clipboard:', err);
-      });
-  });
+  // const shareEl = assertElementById('shareButton', HTMLElement);
+  // shareEl.addEventListener('click', ev => {
+  //   ev.preventDefault();
+  //   window.navigator.clipboard
+  //     .writeText(window.location.href)
+  //     .then(() => {
+  //       // Update toast text with translation
+  //       const toastElement = assertElementById('shareToast', HTMLElement);
+  //       const toastBody = toastElement.querySelector('.toast-body');
+  //       if (toastBody) {
+  //         toastBody.innerHTML = `<i class="bi bi-check-circle me-2"></i>${i18next.t('share.copied')}`;
+  //       }
+  //       const toast = new bootstrap.Toast(toastElement, {
+  //         autohide: true,
+  //         delay: 2000,
+  //       });
+  //       toast.show();
+  //     })
+  //     .catch(err => {
+  //       console.error('Failed to copy to clipboard:', err);
+  //     });
+  // });
 
   // Mouse tracker for displaying coordinates
   const { copyCoordinates } = initMouseTracker({

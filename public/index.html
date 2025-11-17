@@ -82,15 +82,15 @@
     <!-- osContainer comes first so that it's "beneath" menu drop-downs -->
     <div id="osContainer"></div>
     <nav class="navbar mapNavbar nav bg-body-tertiary nav-wrapper navbar-dark bg-dark navbar-expand-lg">
-      <div class="container-fluid">
-        <a id="navbar-brand" class="navbar-brand" href="#">
-          <img src="./assets/NoitamapLogo.svg" alt="Noitamap Logo" class="d-inline-block"
-            style="width: 41px; height: 49px" />
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleMapMenu"
-          aria-controls="collapsibleMapMenu" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <div class="container-fluid" >
+<!--        <a id="navbar-brand" class="navbar-brand" href="#">-->
+<!--          <img src="./assets/NoitamapLogo.svg" alt="Noitamap Logo" class="d-inline-block"-->
+<!--            style="width: 41px; height: 49px" />-->
+<!--        </a>-->
+<!--        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleMapMenu"-->
+<!--          aria-controls="collapsibleMapMenu" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--          <span class="navbar-toggler-icon"></span>-->
+<!--        </button>-->
 
         <div class="collapse navbar-collapse" id="collapsibleMapMenu">
           <!-- Dropdown and buttons container -->
@@ -126,12 +126,12 @@
                 aria-label="unified search" />
             </form>
 
-            <a tabindex="0" id="shareButton" class="icon-button btn btn-sm btn-outline-light text-nowrap me-2"
-              role="button" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus"
-              data-i18n-title="shareLink.title" data-bs-title="Share Link" data-i18n-content="shareLink.content"
-              data-bs-content="Copy a shareable link to your clipboard">
-              <i class="bi bi-share"></i><span></span>
-            </a>
+<!--            <a tabindex="0" id="shareButton" class="icon-button btn btn-sm btn-outline-light text-nowrap me-2"-->
+<!--              role="button" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus"-->
+<!--              data-i18n-title="shareLink.title" data-bs-title="Share Link" data-i18n-content="shareLink.content"-->
+<!--              data-bs-content="Copy a shareable link to your clipboard">-->
+<!--              <i class="bi bi-share"></i><span></span>-->
+<!--            </a>-->
 
             <div id="overlay-selector" class="btn-group btn-group me-2" role="group">
               <input id="structuresToggler" type="checkbox" class="btn-check overlayToggler" autocomplete="off"
@@ -172,10 +172,12 @@
                 data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus"
                 data-i18n-title="biomeBoundaries.title" data-bs-title="Biome Boundaries"
                 data-i18n-content="biomeBoundaries.content" data-bs-content="Toggle biome boundaries overlay"><i
-                  class="bi bi-border-outer"></i><span
-                  class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger">
-                  New!
-                </span></label>
+                  class="bi bi-border-outer"></i>
+<!--                <span-->
+<!--                  class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger">-->
+<!--                  New!-->
+<!--                </span>-->
+              </label>
             </div>
 
             <form id="renderer-form" class="input-group-sm d-flex">
@@ -196,39 +198,39 @@
                     class="bi bi-browser-chrome"></i></label>
               </div>
             </form>
-            <a id="installModButton" href="https://runfast.stream/noitamap-mod" target="_blank"
-              class="icon-button btn btn-sm btn-outline-light text-nowrap me-2" data-bs-toggle="popover"
-              data-bs-placement="top" data-bs-trigger="hover focus" data-i18n-title="mod.title"
-              data-bs-title="Noita Map Mod" data-i18n-content="mod.content" data-bs-content="Install the Noita Map mod">
-              <i class="bi bi-download"></i><span>Mod</span>
-            </a>
-            <a href="https://discord.gg/R2PHyHMYgx" class="icon-button btn btn-sm btn-outline-light text-nowrap me-2"
-              target="_blank" role="button" data-bs-toggle="popover" data-bs-placement="top"
-              data-bs-trigger="hover focus" data-i18n-title="discord.title" data-bs-title="Discord"
-              data-i18n-content="discord.content" data-bs-content="Join the Discord server">
-              <i class="bi bi-discord"></i>
-            </a>
-            <a href="https://github.com/acidflow-noita/noitamap"
-              class="icon-button btn btn-sm btn-outline-light text-nowrap me-2" target="_blank" role="button"
-              data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus"
-              data-i18n-title="github.title" data-bs-title="GitHub" data-i18n-content="github.content"
-              data-bs-content="View the source code on GitHub">
-              <i class="bi bi-github"></i>
-            </a>
-            <a id="goToMainWebsiteButton" href="https://runfast.stream" target="_blank"
-              class="btn btn-sm btn-outline-warning me-2" data-bs-toggle="popover" data-bs-placement="top"
-              data-bs-trigger="hover focus" data-i18n-title="runfast.title" data-bs-title="Runfast.Stream"
-              data-i18n-content="runfast.content" data-bs-content="Go to the main runfast.stream website">
-              <i class="icon-runfast"></i>
-            </a>
-            <div class="me-2 bg-glow rounded-full inline-block">
-              <a href="https://runfast.stream/donate" style="text-decoration: none" target="_blank">
-                <div id="dono-button"
-                  class="test overflow-hidden bg-main text-white border border-1 border-light rounded-full px-2 py-1 inline-block"
-                  data-i18n="donate">Donate</div>
-              </a>
-              <div class="bg-glow-inner"></div>
-            </div>
+<!--            <a id="installModButton" href="https://runfast.stream/noitamap-mod" target="_blank"-->
+<!--              class="icon-button btn btn-sm btn-outline-light text-nowrap me-2" data-bs-toggle="popover"-->
+<!--              data-bs-placement="top" data-bs-trigger="hover focus" data-i18n-title="mod.title"-->
+<!--              data-bs-title="Noita Map Mod" data-i18n-content="mod.content" data-bs-content="Install the Noita Map mod">-->
+<!--              <i class="bi bi-download"></i><span>Mod</span>-->
+<!--            </a>-->
+<!--            <a href="https://discord.gg/R2PHyHMYgx" class="icon-button btn btn-sm btn-outline-light text-nowrap me-2"-->
+<!--              target="_blank" role="button" data-bs-toggle="popover" data-bs-placement="top"-->
+<!--              data-bs-trigger="hover focus" data-i18n-title="discord.title" data-bs-title="Discord"-->
+<!--              data-i18n-content="discord.content" data-bs-content="Join the Discord server">-->
+<!--              <i class="bi bi-discord"></i>-->
+<!--            </a>-->
+<!--            <a href="https://github.com/acidflow-noita/noitamap"-->
+<!--              class="icon-button btn btn-sm btn-outline-light text-nowrap me-2" target="_blank" role="button"-->
+<!--              data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus"-->
+<!--              data-i18n-title="github.title" data-bs-title="GitHub" data-i18n-content="github.content"-->
+<!--              data-bs-content="View the source code on GitHub">-->
+<!--              <i class="bi bi-github"></i>-->
+<!--            </a>-->
+<!--            <a id="goToMainWebsiteButton" href="https://runfast.stream" target="_blank"-->
+<!--              class="btn btn-sm btn-outline-warning me-2" data-bs-toggle="popover" data-bs-placement="top"-->
+<!--              data-bs-trigger="hover focus" data-i18n-title="runfast.title" data-bs-title="Runfast.Stream"-->
+<!--              data-i18n-content="runfast.content" data-bs-content="Go to the main runfast.stream website">-->
+<!--              <i class="icon-runfast"></i>-->
+<!--            </a>-->
+<!--            <div class="me-2 bg-glow rounded-full inline-block">-->
+<!--              <a href="https://runfast.stream/donate" style="text-decoration: none" target="_blank">-->
+<!--                <div id="dono-button"-->
+<!--                  class="test overflow-hidden bg-main text-white border border-1 border-light rounded-full px-2 py-1 inline-block"-->
+<!--                  data-i18n="donate">Donate</div>-->
+<!--              </a>-->
+<!--              <div class="bg-glow-inner"></div>-->
+<!--            </div>-->
           </div>
         </div>
       </div>
