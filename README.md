@@ -57,7 +57,75 @@ C:\Program Files (x86)\Steam\steamapps\common\Noita\mods\noita-mapcap\bin\stitch
 2. 复制以下命令粘贴到终端（可使用 `Ctrl+V` 或鼠标右键粘贴），**暂不执行**—— 需先按命名规则修改输出文件名：`游戏模式-分支-世界-更新日期-种子码.dzi`（示例：`常规-主分支-左侧-2024-04-08-78633191.dzi`）
 
 ```powershell
-.\stitch.exe --output nightmare-main-branch-left-2024-04-08-78633191.dzi --blend-tile-limit 1 --dzi-tile-size 512 --xmin -53760 --xmax -17408 --ymin -31744 --ymax 41984 --webp-level 9 && .\stitch.exe --output nightmare-main-branch-middle-2024-04-08-78633191.dzi --blend-tile-limit 1 --dzi-tile-size 512 --xmin -17920 --xmax 18432 --ymin -31744 --ymax 41984 --webp-level 9 && .\stitch.exe --output nightmare-main-branch-right-2024-04-08-78633191.dzi --blend-tile-limit 1 --dzi-tile-size 512 --xmin 17920 --xmax 53760 --ymin -31744 --ymax 41984 --webp-level 9
+.\stitch.exe --output regular-main-branch-left-2024-04-08-78633191.dzi --blend-tile-limit 1 --dzi-tile-size 512 --xmin -53760 --xmax -17408 --ymin -31744 --ymax 41984 --webp-level 9 && .\stitch.exe --output regular-main-branch-middle-2024-04-08-78633191.dzi --blend-tile-limit 1 --dzi-tile-size 512 --xmin -17920 --xmax 18432 --ymin -31744 --ymax 41984 --webp-level 9 && .\stitch.exe --output regular-main-branch-right-2024-04-08-78633191.dzi --blend-tile-limit 1 --dzi-tile-size 512 --xmin 17920 --xmax 53760 --ymin -31744 --ymax 41984 --webp-level 9
+```
+
+linux:
+
+```
+./stitch.exe \
+--output regular-main-branch-left-2024-08-12-78633191.dzi \
+--blend-tile-limit 1 \
+--dzi-tile-size 512 \
+--xmin -53760 \
+--xmax -17408 \
+--ymin -31744 \
+--ymax 41984 \
+--webp-level 9 \
+&& \
+./stitch.exe \
+--output regular-main-branch-middle-2024-08-12-78633191.dzi \
+--blend-tile-limit 1 \
+--dzi-tile-size 512 \
+--xmin -17920 \
+--xmax 18432 \
+--ymin -31744 \
+--ymax 41984 \
+--webp-level 9 \
+&& \
+.\stitch.exe \
+--output regular-main-branch-right-2024-08-12-78633191.dzi \
+--blend-tile-limit 1 \
+--dzi-tile-size 512 \
+--xmin 17920 \
+--xmax 53760 \
+--ymin -31744 \
+--ymax 41984 \
+--webp-level 9
+```
+
+windows:
+
+```
+.\stitch.exe ^
+--output regular-main-branch-left-2024-08-12-78633191.dzi ^
+--blend-tile-limit 1 ^
+--dzi-tile-size 512 ^
+--xmin -53760 ^
+--xmax -17408 ^
+--ymin -31744 ^
+--ymax 41984 ^
+--webp-level 9
+
+.\stitch.exe ^
+--output regular-main-branch-middle-2024-08-12-78633191.dzi ^
+--blend-tile-limit 1 ^
+--dzi-tile-size 512 ^
+--xmin -17920 ^
+--xmax 18432 ^
+--ymin -31744 ^
+--ymax 41984 ^
+--webp-level 9
+
+.\stitch.exe ^
+--output regular-main-branch-right-2024-08-12-78633191.dzi ^
+--blend-tile-limit 1 ^
+--dzi-tile-size 512 ^
+--xmin 17920 ^
+--xmax 53760 ^
+--ymin -31744 ^
+--ymax 41984 ^
+--webp-level 9
 ```
 
 1. 执行命令后，拼接完成时会在 `stitch.exe` 同级目录下生成 3 个新文件夹（`游戏模式-分支-世界-更新日期-种子码_files`）和 3 个新文件（`游戏模式-分支-世界-更新日期-种子码.dzi`）。
