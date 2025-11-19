@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsup && npm run copy-flags && npm run add-biome-translations && npm run copy-locales",
+    "build": "tsup && npm run copy-flags && npm run add-biome-translations && npm run copy-locales && node -e \"const fs=require('fs');fs.copyFileSync('src/data/map_definitions.json','public/js/map_definitions.json');fs.copyFileSync('src/data/tilesources.json','public/js/tilesources.json');\"",
     "copy-flags": "node build_scripts/copy-flags.cjs",
     "add-biome-translations": "node build_scripts/add-biome-translations.cjs",
     "copy-locales": "node build_scripts/copy-locales.cjs",

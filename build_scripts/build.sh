@@ -26,3 +26,4 @@ npm run build
 
 # Copy the built tilesources.json into the dist which is /public
 cp "$HERE/src/data/tilesources.json" "$HERE/public/js/tilesources.json"
+cp "$HERE/src/data/map_definitions.json" "$HERE/public/js/map_definitions.json"

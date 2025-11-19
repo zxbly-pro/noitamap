@@ -3,7 +3,8 @@ import { App } from './app';
 import { parseURL, updateURL } from './data_sources/url';
 import { asOverlayKey, showOverlay, selectSpell } from './data_sources/overlays';
 import { UnifiedSearch } from './search/unifiedsearch';
-import { asMapName } from './data_sources/tile_data';
+import { asMapName, initTileSources } from './data_sources/tile_data';
+import { initMapDefinitions } from './data_sources/map_definitions';
 import { addEventListenerForId, assertElementById, debounce } from './util';
 import { createMapLinks, NAV_LINK_IDENTIFIER } from './nav';
 import { initMouseTracker } from './mouse_tracker';
@@ -24,6 +25,7 @@ export const refreshSearchTranslations = () => {
 
 document.addEventListener('DOMContentLoaded', async () => {
   try {
+    await Promise.all([initTileSources(), initMapDefinitions()]);
     await i18next.init({
       fallbackLng: 'en',
       debug: false,
@@ -71,6 +73,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Initialize renderer from storage
   const storedRenderer = getStoredRenderer();
   rendererForm.elements['renderer'].value = storedRenderer;
+
+  await Promise.all([initTileSources(), initMapDefinitions()]);
 
   const app = await App.create({
     mountTo: osdRootElement,
