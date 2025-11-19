@@ -290,11 +290,11 @@ function createPathOverlay({ path, color, text, biomeName }: PathOfInterest): OS
         }
         
         // Format: Translated Name\n(filename)
-        tooltip.innerHTML = `${translatedName}<br><span style="font-family: Inter, sans-serif; font-feature-settings: 'tnum', 'zero', 'cv09', 'cv02', 'cv03', 'cv04'; font-weight: 400; opacity: 0.7;">(${text})</span>`;
+        tooltip.innerHTML = `${translatedName}<br><span style="font-family: system-ui, sans-serif; font-weight: 400; opacity: 0.7;">(${text})</span>`;
       } else {
         // No in-game name available
         const noInGameName = i18next.t('noInGameName');
-        tooltip.innerHTML = `${noInGameName}<br><span style="font-family: Inter, sans-serif; font-feature-settings: 'tnum', 'zero', 'cv09', 'cv02', 'cv03', 'cv04'; font-weight: 400; opacity: 0.7;">(${text})</span>`;
+        tooltip.innerHTML = `${noInGameName}<br><span style="font-family: system-ui, sans-serif; font-weight: 400; opacity: 0.7;">(${text})</span>`;
       }
       
       tooltip.style.display = 'block';
