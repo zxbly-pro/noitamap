@@ -1,0 +1,44 @@
+{
+  "regular-main-branch": [
+    {
+      "url": "http://8.156.75.97/noitaMaps/regular-main-branch/maps/regular-main-branch-middle/regular-main-branch-middle-2025-11-18-252996364.dzi",
+      "dziContent": "{\"Image\":{\"xmlns\":\"http://schemas.microsoft.com/deepzoom/2008\",\"Format\":\"webp\",\"Overlap\":\"2\",\"TileSize\":\"512\",\"Size\":{\"Width\":\"36352\",\"Height\":\"73728\"},\"TopLeft\":{\"X\":\"-17920\",\"Y\":\"-31744\"}}}\n"
+    },
+    {
+      "url": "http://8.156.75.97/noitaMaps/regular-main-branch/maps/regular-main-branch-left/regular-main-branch-left-2025-11-18-252996364.dzi",
+      "dziContent": "{\"Image\":{\"xmlns\":\"http://schemas.microsoft.com/deepzoom/2008\",\"Format\":\"webp\",\"Overlap\":\"2\",\"TileSize\":\"512\",\"Size\":{\"Width\":\"36352\",\"Height\":\"73728\"},\"TopLeft\":{\"X\":\"-53760\",\"Y\":\"-31744\"}}}\n"
+    },
+    {
+      "url": "http://8.156.75.97/noitaMaps/regular-main-branch/maps/regular-main-branch-right/regular-main-branch-right-2025-11-18-252996364.dzi",
+      "dziContent": "{\"Image\":{\"xmlns\":\"http://schemas.microsoft.com/deepzoom/2008\",\"Format\":\"webp\",\"Overlap\":\"2\",\"TileSize\":\"512\",\"Size\":{\"Width\":\"35840\",\"Height\":\"73728\"},\"TopLeft\":{\"X\":\"17920\",\"Y\":\"-31744\"}}}\n"
+    }
+  ],
+  "new-game-plus-main-branch": [
+    {
+      "url": "http://8.156.75.97/noitaMaps/new-game-plus-main-branch/maps/new-game-plus-main-branch-middle/new-game-plus-main-branch-middle-2024-08-12-78633191.dzi",
+      "dziContent": "{\"Image\":{\"xmlns\":\"http://schemas.microsoft.com/deepzoom/2008\",\"Format\":\"webp\",\"Overlap\":\"2\",\"TileSize\":\"512\",\"Size\":{\"Width\":\"36352\",\"Height\":\"73728\"},\"TopLeft\":{\"X\":\"-17920\",\"Y\":\"-31744\"}}}\n"
+    },
+    {
+      "url": "http://8.156.75.97/noitaMaps/new-game-plus-main-branch/maps/new-game-plus-main-branch-left/new-game-plus-main-branch-left-2024-08-12-78633191.dzi",
+      "dziContent": "{\"Image\":{\"xmlns\":\"http://schemas.microsoft.com/deepzoom/2008\",\"Format\":\"webp\",\"Overlap\":\"2\",\"TileSize\":\"512\",\"Size\":{\"Width\":\"36352\",\"Height\":\"73728\"},\"TopLeft\":{\"X\":\"-53760\",\"Y\":\"-31744\"}}}\n"
+    },
+    {
+      "url": "http://8.156.75.97/noitaMaps/new-game-plus-main-branch/maps/new-game-plus-main-branch-right/new-game-plus-main-branch-right-2024-08-12-78633191.dzi",
+      "dziContent": "{\"Image\":{\"xmlns\":\"http://schemas.microsoft.com/deepzoom/2008\",\"Format\":\"webp\",\"Overlap\":\"2\",\"TileSize\":\"512\",\"Size\":{\"Width\":\"35840\",\"Height\":\"73728\"},\"TopLeft\":{\"X\":\"17920\",\"Y\":\"-31744\"}}}\n"
+    }
+  ],
+  "nightmare-main-branch": [
+    {
+      "url": "http://8.156.75.97/noitaMaps/nightmare-main-branch/maps/nightmare-main-branch-middle/nightmare-main-branch-middle-2024-08-12-78633191.dzi",
+      "dziContent": "{\"Image\":{\"xmlns\":\"http://schemas.microsoft.com/deepzoom/2008\",\"Format\":\"webp\",\"Overlap\":\"2\",\"TileSize\":\"512\",\"Size\":{\"Width\":\"36352\",\"Height\":\"73728\"},\"TopLeft\":{\"X\":\"-17920\",\"Y\":\"-31744\"}}}\n"
+    },
+    {
+      "url": "http://8.156.75.97/noitaMaps/nightmare-main-branch/maps/nightmare-main-branch-left/nightmare-main-branch-left-2024-08-12-78633191.dzi",
+      "dziContent": "{\"Image\":{\"xmlns\":\"http://schemas.microsoft.com/deepzoom/2008\",\"Format\":\"webp\",\"Overlap\":\"2\",\"TileSize\":\"512\",\"Size\":{\"Width\":\"36352\",\"Height\":\"73728\"},\"TopLeft\":{\"X\":\"-53760\",\"Y\":\"-31744\"}}}\n"
+    },
+    {
+      "url": "http://8.156.75.97/noitaMaps/nightmare-main-branch/maps/nightmare-main-branch-right/nightmare-main-branch-right-2024-08-12-78633191.dzi",
+      "dziContent": "{\"Image\":{\"xmlns\":\"http://schemas.microsoft.com/deepzoom/2008\",\"Format\":\"webp\",\"Overlap\":\"2\",\"TileSize\":\"512\",\"Size\":{\"Width\":\"35840\",\"Height\":\"73728\"},\"TopLeft\":{\"X\":\"17920\",\"Y\":\"-31744\"}}}\n"
+    }
+  ]
+}

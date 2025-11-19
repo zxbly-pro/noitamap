@@ -1,0 +1,245 @@
+[
+  {
+    "key": "regular-main-branch",
+    "label": "Regular",
+    "labelKey": "maps.regular",
+    "badges": [
+      {
+        "label": "Latest",
+        "labelKey": "badges.latest",
+        "class": "text-bg-success"
+      }
+    ],
+    "patchDate": "2025-11-18",
+    "seed": "252996364",
+    "tileSets": ["middle", "left", "right"]
+  },
+  {
+    "key": "new-game-plus-main-branch",
+    "label": "New Game+",
+    "labelKey": "maps.newGamePlus",
+    "badges": [
+      {
+        "label": "Latest",
+        "labelKey": "badges.latest",
+        "class": "text-bg-success"
+      }
+    ],
+    "patchDate": "2024-08-12",
+    "seed": "78633191",
+    "tileSets": ["middle", "left", "right"]
+  },
+  {
+    "key": "nightmare-main-branch",
+    "label": "Nightmare",
+    "labelKey": "maps.nightmare",
+    "badges": [
+      {
+        "label": "Latest",
+        "labelKey": "badges.latest",
+        "class": "text-bg-success"
+      }
+    ],
+    "patchDate": "2024-08-12",
+    "seed": "78633191",
+    "tileSets": ["middle", "left", "right"]
+  },
+  {
+    "key": "apotheosis-beta-branch",
+    "label": "Apotheosis",
+    "labelKey": "maps.apotheosis",
+    "badges": [
+      {
+        "label": "Mod",
+        "labelKey": "badges.mod",
+        "class": "text-bg-info",
+        "icon": "bi bi-tools"
+      }
+    ],
+    "patchDate": "2024-08-12",
+    "seed": "78633194",
+    "tileSets": ["middle", "left", "right"]
+  },
+  {
+    "key": "regular-beta",
+    "label": "Regular",
+    "labelKey": "maps.regularBeta",
+    "badges": [
+      {
+        "label": "β branch",
+        "labelKey": "badges.betaBranch",
+        "class": "text-bg-info"
+      }
+    ],
+    "patchDate": "2024-08-12",
+    "seed": "78633191",
+    "tileSets": ["middle", "left", "right"]
+  },
+  {
+    "key": "purgatory",
+    "label": "Purgatory",
+    "labelKey": "maps.purgatory",
+    "badges": [
+      {
+        "label": "Mod",
+        "labelKey": "badges.mod",
+        "class": "text-bg-light",
+        "icon": "bi bi-tools"
+      }
+    ],
+    "patchDate": "2024-08-12",
+    "seed": "78633191",
+    "tileSets": ["middle"],
+    "modUrl": "https://github.com/Priskip/purgatory"
+  },
+  {
+    "key": "apotheosis-new-game-plus",
+    "label": "Apotheosis NG+",
+    "labelKey": "maps.apotheosisNewGamePlus",
+    "badges": [
+      {
+        "label": "Mod",
+        "labelKey": "badges.mod",
+        "class": "text-bg-light",
+        "icon": "bi bi-tools"
+      }
+    ],
+    "patchDate": "2024-08-12",
+    "seed": "78633191",
+    "tileSets": ["middle"],
+    "modUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3032128572"
+  },
+  {
+    "key": "apotheosis-tuonela",
+    "label": "Apotheosis Tuonela",
+    "labelKey": "maps.apotheosistuonela",
+    "badges": [
+      {
+        "label": "Mod",
+        "labelKey": "badges.mod",
+        "class": "text-bg-light",
+        "icon": "bi bi-tools"
+      }
+    ],
+    "patchDate": "2024-08-12",
+    "seed": "78633191",
+    "tileSets": ["middle"],
+    "modUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3032128572"
+  },
+  {
+    "key": "noitavania",
+    "label": "Noitavania",
+    "labelKey": "maps.noitavania",
+    "badges": [
+      {
+        "label": "Mod",
+        "labelKey": "badges.mod",
+        "class": "text-bg-light",
+        "icon": "bi bi-tools"
+      }
+    ],
+    "patchDate": "2024-08-12",
+    "seed": "78633191",
+    "tileSets": ["middle"],
+    "modUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2263080245"
+  },
+  {
+    "key": "noitavania-new-game-plus",
+    "label": "Noitavania NG+",
+    "labelKey": "maps.noitavaniaNewGamePlus",
+    "badges": [
+      {
+        "label": "Mod",
+        "labelKey": "badges.mod",
+        "class": "text-bg-light",
+        "icon": "bi bi-tools"
+      }
+    ],
+    "patchDate": "2024-08-12",
+    "seed": "78633191",
+    "tileSets": ["middle"],
+    "modUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2263080245"
+  },
+  {
+    "key": "alternate-biomes",
+    "label": "Alternate Biomes",
+    "labelKey": "maps.alternateBiomes",
+    "badges": [
+      {
+        "label": "Mod",
+        "labelKey": "badges.mod",
+        "class": "text-bg-light",
+        "icon": "bi bi-tools"
+      }
+    ],
+    "patchDate": "2024-08-12",
+    "seed": "78633191",
+    "tileSets": ["middle"],
+    "modUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2554761457"
+  },
+  {
+    "key": "deepend-main-branch",
+    "label": "Deep End",
+    "labelKey": "maps.deepEnd",
+    "badges": [
+      {
+        "label": "Mod",
+        "labelKey": "badges.mod",
+        "class": "text-bg-light",
+        "icon": "bi bi-tools"
+      }
+    ],
+    "patchDate": "2025-05-13",
+    "seed": "786433191",
+    "tileSets": ["middle"],
+    "modUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3356681136"
+  },
+  {
+    "key": "biomemap-main-branch",
+    "label": "Biome Map",
+    "labelKey": "maps.biomeMap",
+    "badges": [
+      {
+        "label": "Special",
+        "labelKey": "badges.special",
+        "class": "text-bg-primary",
+        "icon": "bi bi-gear-wide-connected"
+      }
+    ],
+    "patchDate": "2024-08-12",
+    "seed": "78633191",
+    "tileSets": ["middle"]
+  },
+  {
+    "key": "biomemaprendered-main-branch",
+    "label": "Biome Map Captured",
+    "labelKey": "maps.biomeMapCaptured",
+    "badges": [
+      {
+        "label": "Special",
+        "labelKey": "badges.special",
+        "class": "text-bg-primary",
+        "icon": "bi bi-gear-wide-connected"
+      }
+    ],
+    "patchDate": "2024-08-12",
+    "seed": "78633191",
+    "tileSets": ["middle"]
+  },
+  {
+    "key": "maptestdev",
+    "label": "Map Test PNG",
+    "labelKey": "maps.mapTestPng",
+    "badges": [
+      {
+        "label": "Special",
+        "labelKey": "badges.special",
+        "class": "text-bg-primary",
+        "icon": "bi bi-gear-wide-connected"
+      }
+    ],
+    "patchDate": "2024-08-12",
+    "seed": "78633191",
+    "tileSets": ["middle"]
+  }
+]
