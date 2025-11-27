@@ -1623,7 +1623,7 @@
   }
   else {
     // global for any kind of environment.
-    var _global= new Function('','return this')();
+    var _global = (typeof globalThis !== 'undefined') ? globalThis : (typeof self !== 'undefined') ? self : (typeof window !== 'undefined') ? window : {};
     _global.EventEmitter2 = EventEmitter;
   }
 }();

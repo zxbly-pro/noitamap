@@ -23,6 +23,7 @@ const index = (FlexSearch.Document as DocumentFactory<unknown, false>)({
     tag: 'maps',
   },
   tokenize: 'forward',
+  worker: false,
 });
 
 // FlexSearch's ability to return the document we gave it sucks. Instead,

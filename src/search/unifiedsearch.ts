@@ -7,7 +7,7 @@ import { TargetOfInterest, Spell } from '../data_sources/overlays';
 import { gameTranslator } from '../game-translations/translator';
 import i18next from '../i18n';
 import spells from '../data/spells.json';
-import { EventEmitter2 } from 'eventemitter2';
+import EventEmitter2 from 'eventemitter2';
 
 export type UnifiedSearchCreateOptions = {
   currentMap: MapName;

@@ -6,6 +6,7 @@ export default defineConfig({
   outDir: 'public/js',
   format: 'iife',
   minify: true,
+  noExternal: ['eventemitter2'],
   outExtension() {
     return {
       js: `.js`,

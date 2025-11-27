@@ -1,6 +1,6 @@
 import { TargetOfInterest } from '../data_sources/overlays';
 import i18next from '../i18n';
-import { EventEmitter2 } from 'eventemitter2';
+import EventEmitter2 from 'eventemitter2';
 
 export interface SearchResults {
   on(event: 'selected', listener: (target: TargetOfInterest) => void): this;

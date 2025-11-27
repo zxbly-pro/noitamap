@@ -1,6 +1,6 @@
 import { TargetOfInterest } from '../data_sources/overlays';
 import { Spell } from '../data_sources/overlays';
-import { EventEmitter2 } from 'eventemitter2';
+import EventEmitter2 from 'eventemitter2';
 import i18next from '../i18n';
 import { getSpellAvailability } from '../util';
 

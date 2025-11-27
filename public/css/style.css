@@ -198,6 +198,26 @@ body.toggle-hidden div.osOverlayHighlight {
   image-rendering: pixelated;
 }
 
+.icp-record {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #aaaaaa;
+  z-index: 1100;
+  padding: 4px 0;
+}
+.icp-record a {
+  color: #aaaaaa;
+  text-decoration: none;
+}
+.icp-record a:hover {
+  text-decoration: underline;
+  color: #dddddd;
+}
+
 .icon-structures {
   background-image: url(../assets/icons/overlay-toggles/icon-structures.svg);
   background-size: cover;
